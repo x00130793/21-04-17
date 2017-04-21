@@ -1,0 +1,27 @@
+[0m[[0mdebug[0m] [0m[naha] [0m
+[0m[[0mdebug[0m] [0m[naha] Initial source changes: [0m
+[0m[[0mdebug[0m] [0m[naha] 	removed:Set()[0m
+[0m[[0mdebug[0m] [0m[naha] 	added: Set()[0m
+[0m[[0mdebug[0m] [0m[naha] 	modified: Set(/home/wdd/Desktop/14-04-17/14-04-17/app/controllers/HomeController.java)[0m
+[0m[[0mdebug[0m] [0m[naha] Invalidated products: Set()[0m
+[0m[[0mdebug[0m] [0m[naha] External API changes: API Changes: Set()[0m
+[0m[[0mdebug[0m] [0m[naha] Modified binary dependencies: Set()[0m
+[0m[[0mdebug[0m] [0m[naha] Initial directly invalidated sources: Set(/home/wdd/Desktop/14-04-17/14-04-17/app/controllers/HomeController.java)[0m
+[0m[[0mdebug[0m] [0m[naha] [0m
+[0m[[0mdebug[0m] [0m[naha] Sources indirectly invalidated by:[0m
+[0m[[0mdebug[0m] [0m[naha] 	product: Set()[0m
+[0m[[0mdebug[0m] [0m[naha] 	binary dep: Set()[0m
+[0m[[0mdebug[0m] [0m[naha] 	external source: Set()[0m
+[0m[[0mdebug[0m] [0mAll initially invalidated sources: Set(/home/wdd/Desktop/14-04-17/14-04-17/app/controllers/HomeController.java)[0m
+[0m[[0minfo[0m] [0mCompiling 1 Java source to /home/wdd/Desktop/14-04-17/14-04-17/target/scala-2.11/classes...[0m
+[0m[[0mdebug[0m] [0mAttempting to call com.sun.tools.javac.api.JavacTool@3f857b8d directly...[0m
+[0m[[31merror[0m] [0m/home/wdd/Desktop/14-04-17/14-04-17/app/controllers/HomeController.java:110: no suitable method found for add(models.Size)[0m
+[0m[[31merror[0m] [0m    method java.util.Collection.add(java.lang.String) is not applicable[0m
+[0m[[31merror[0m] [0m      (argument mismatch; models.Size cannot be converted to java.lang.String)[0m
+[0m[[31merror[0m] [0m    method java.util.List.add(java.lang.String) is not applicable[0m
+[0m[[31merror[0m] [0m      (argument mismatch; models.Size cannot be converted to java.lang.String)[0m
+[0m[[31merror[0m] [0mtemp.add[0m
+[0m[[0minfo[0m] [0m/home/wdd/Desktop/14-04-17/14-04-17/app/controllers/HomeController.java: /home/wdd/Desktop/14-04-17/14-04-17/app/controllers/HomeController.java uses unchecked or unsafe operations.[0m
+[0m[[0minfo[0m] [0m/home/wdd/Desktop/14-04-17/14-04-17/app/controllers/HomeController.java: Recompile with -Xlint:unchecked for details.[0m
+[0m[[0minfo[0m] [0mSome messages have been simplified; recompile with -Xdiags:verbose to get full output[0m
+[0m[[31merror[0m] [0m(compile:[31mcompileIncremental[0m) javac returned nonzero exit code[0m
